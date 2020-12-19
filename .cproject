@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="io.sloeber.core.toolChain.release.1409380524">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="io.sloeber.core.toolChain.release.1409380524" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.MakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.1409380524" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="io.sloeber.core.toolChain.release.1409380524.1644988701" name="/" resourcePath="">
+						<toolChain id="io.sloeber.core.toolChain.release.741398113" name="Arduino Toolchain (Sloeber edition)" superClass="io.sloeber.core.toolChain.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="io.sloeber.targetplatform.736140978" name="Arduino Target" osList="all" superClass="io.sloeber.targetplatform"/>
+							<builder buildPath="${workspace_loc:/AirPollution}/Release" id="io.sloeber.sketch.builder.839948224" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Arduino sketch builder" superClass="io.sloeber.sketch.builder"/>
+							<tool id="io.sloeber.tool.sketch.compiler.cpp.1916865032" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.cpp.sketch.option.incpath.148917723" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/MiCS6814-I2C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/NTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ThingSpeak/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/DHT_sensor_library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SDS011_sensor_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SoftwareSerial/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/esp8266/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Adafruit_Unified_Sensor}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.cpp.sketch.input.1368008749" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.compiler.c.553335642" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.c.sketch.option.incpath.1922189195" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/MiCS6814-I2C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/NTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ThingSpeak/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/DHT_sensor_library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SDS011_sensor_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SoftwareSerial/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/esp8266/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Adafruit_Unified_Sensor}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.c.sketch.input.865490767" name="C Source Files" superClass="io.sloeber.compiler.c.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.sketch.compiler.s.1030379568" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.asm.sketch.option.incpath.1107011150" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/core}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/variant}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ESP8266WiFi/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/MiCS6814-I2C/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/NTPClient}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ThingSpeak/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Wire}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/DHT_sensor_library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SDS011_sensor_Library}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SoftwareSerial/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/esp8266/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SPI}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Adafruit_Unified_Sensor}&quot;"/>
+								</option>
+								<inputType id="io.sloeber.compiler.S.sketch.input.759073047" name="Assembly source files" superClass="io.sloeber.compiler.S.sketch.input"/>
+							</tool>
+							<tool id="io.sloeber.tool.ar.2096726852" name="Arduino archiver" superClass="io.sloeber.tool.ar"/>
+							<tool id="io.sloeber.tool.combine.480562539" name="Arduino combiner" superClass="io.sloeber.tool.combine"/>
+							<tool id="io.sloeber.tool.objcopy.eep.2115463113" name="Arduino tool objcopy command" superClass="io.sloeber.tool.objcopy.eep"/>
+							<tool id="io.sloeber.tool.size.23879720" name="Arduino tool Print Size" superClass="io.sloeber.tool.size"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="io.sloeber.core.toolChain.release.1409380524.592803083" name="AirPollution.cpp" rcbsApplicability="disable" resourcePath="AirPollution.cpp" toolsToInvoke="io.sloeber.tool.sketch.compiler.cpp.1916865032.281324056">
+						<tool id="io.sloeber.tool.sketch.compiler.cpp.1916865032.281324056" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp.1916865032">
+							<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.cpp.sketch.option.incpath.499644842" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/core}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/core/variant}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/esp8266/src}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ESP8266WiFi/src}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/MiCS6814-I2C/src}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/NTPClient}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/ThingSpeak/src}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Wire}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/Adafruit_Unified_Sensor}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/DHT_sensor_library}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SDS011_sensor_Library}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SoftwareSerial/src}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/libraries/SPI}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/include}&quot;"/>
+								<listOptionValue builtIn="false" value="&quot;${workspace_loc:/AirPollution/src}&quot;"/>
+							</option>
+							<inputType id="io.sloeber.compiler.cpp.sketch.input.1756933692" name="CPP source files" superClass="io.sloeber.compiler.cpp.sketch.input"/>
+						</tool>
+						<tool customBuildStep="true" id="org.eclipse.cdt.managedbuilder.ui.rcbs.530044330" name="Resource Custom Build Step">
+							<inputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.inputtype.1211112264" name="Resource Custom Build Step Input Type">
+								<additionalInput kind="additionalinputdependency" paths=""/>
+							</inputType>
+							<outputType id="org.eclipse.cdt.managedbuilder.ui.rcbs.outputtype.2004801647" name="Resource Custom Build Step Output Type"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="libraries/Adafruit_Sensor_Lab/notebooks|libraries/SDS011_sensor_Library/SDS011_example|src|include|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries/**/._*|libraries/?*/utility/*/*" flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule buildDir="build/${ConfigName}" moduleId="de.marw.cdt.cmake.core.settings">
+				<options/>
+				<defs/>
+				<undefs/>
+			</storageModule>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="AirPollution.null.1230995845" name="AirPollution"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/AirPollution"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>
